@@ -1,4 +1,4 @@
-Typescript
+Typescript notes
 1. superset of javascript
 2. no need for specifying the type of variables
 3. can catch errors during compile time itself
