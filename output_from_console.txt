@@ -1,0 +1,39 @@
+Enter the seats row index and column index in 2D array 
+
+3
+2
+4
+3
+2
+3
+3
+4
+The rows and columns of seats you've entered in 2D array is
+
+[[3, 2], [4, 3], [2, 3], [3, 4]]
+
+ Enter the count of passengers: 
+30
+Aisle Seats booking started from passenger number 1
+Aisle Seats booking ended with passenger number 18
+Window Seats booking started from passenger number 19
+Window Seats booking ended with passenger number 24
+Center Seats booking started from passenger number 25
+Center Seats booking ended with passenger number 30
+All passengers are booked as per given rules
+A matrix
+19 25 1 
+21 29 7 
+B matrix
+2 26 27 3 
+8 30 0 9 
+13 0 0 14 
+C matrix
+4 5 
+10 11 
+15 16 
+D matrix
+6 28 20 
+12 0 22 
+17 0 23 
+18 0 24 
