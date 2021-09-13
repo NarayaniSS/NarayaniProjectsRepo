@@ -1,0 +1,53 @@
+Typescript
+1. superset of javascript
+2. no need for specifying the type of variables
+3. can catch errors during compile time itself
+4. Typescript transpile to javascript
+5. main.ts - is a Typescript; node main.ts - runs the Typescript and code main.ts shows the code in javascript (main.js)
+6. tsc is Typescript compiler (tsc main.ts)
+7. let is local to the scope unlike var keyword
+8. rm main.js 
+9. const,enum is another keyword of Typescript
+10.type assertion - declaring the type of the let variable 
+let message;
+message='abc';
+(<string>message).endswith('c');
+11. arrow function (lambda function in csharp) is an alternative for calling a function
+=>
+--------------------------------------------------
+
+Data binding - communication to/from html and typescript
+event binding - ()
+ngmodel attribute = [(ngModel)] - helps in 2 way binding
+attribute directive binding = [style]
+interpolative directive = {{ }}
+sting interpolation {{title}} in html which picks title value from typescript
+property binding [property] = "data"
+adding html attribute in a square bracket is a property binding. eg: <button class="btn btn-primary" [disabled] = "!allowNewServer">Add Server</button>
+
+event binding (react to user events (request) from html page to typescript)
+(event) = "expression"
+
+$ sign is fetching the data from UI input and use it in .ts and html
+
+combination of both - two way data binding which is [(ngModel)] = "data"
+
+ng new routing-app -routing to enable router for app
+
+window.open("url","_blank") - to open new tab
+
+using router link we cannot open new table, redirection only within same page..
+
+stackblitz.com/edit/angular6-lazy-loading?file=src%2Fapp%2Fapp-routing.module.ts - lazy loading
+
+Angular router guards
+
+CanActivate
+CanActivateChild
+CanDeactivate
+Resolve
+CanLoad
+
+Angular form: 2 way
+1. template driven form
+2. Reactive form/ Model driven form
